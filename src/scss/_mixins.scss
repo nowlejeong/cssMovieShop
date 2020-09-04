@@ -1,0 +1,12 @@
+@import "_variables";
+
+@mixin Link($word) {
+  text-decoration: none;
+  display: block;
+  font-size: 40px;
+  @if $word == "odd" {
+    color: tomato;
+  } @else {
+    color: violet;
+  }
+}
